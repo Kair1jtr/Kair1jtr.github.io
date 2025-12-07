@@ -7,4 +7,4 @@
 
 ## 記事一覧
 
-[週末レイトレーシングに挑戦](https://kair1jtr.github.io/docs/raytracing.html)
+[ボクセルレイトレーサーを作った](https://kair1jtr.github.io/docs/raytracing.html)
