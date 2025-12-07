@@ -16,13 +16,11 @@ title: "Kair1jtrのブログ"
                 </nav>
                 <h2>記事一覧</h2>
                 <nav>
-                    <p>
-                        <a href="docs/raytracing.html">ボクセルレイトレーサを作った</a>
-                    </p>
-                </nav>
-                <h2>書きかけの記事</h2>
-                <nav>
-
+                    {% for article in site.data.links %}
+                        <p>
+                            <a href="{{ article.url }}">{{ article.title }}</a>
+                        </p>
+                    {% endfor %}
                 </nav>
         </div>
     </body>
