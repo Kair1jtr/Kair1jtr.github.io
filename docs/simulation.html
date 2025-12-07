@@ -7,7 +7,14 @@ title: "宇宙の構造生成シミュレーションを理解したい"
 <html lang="ja">
     <body>
         <div class="container">
-            
+            <h2>他の記事もどうぞ</h2>
+            <nav>
+                {% for article in site.data.links %}
+                <p>
+                    <a href="{{ article.url }}">{{ article.title }}</a>
+                </p>
+                {% endfor %}
+            </nav>
         </div>
     </body>
 </html>

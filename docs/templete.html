@@ -11,6 +11,15 @@ title: "タイトル"
             <nav>
                 <p>何か</p>
             </nav>
+
+            <h2>他の記事もどうぞ</h2>
+            <nav>
+                {% for article in site.data.links %}
+                <p>
+                    <a href="{{ article.url }}">{{ article.title }}</a>
+                </p>
+                {% endfor %}
+            </nav>
         </div>
     </body>
 </html>
