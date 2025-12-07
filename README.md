@@ -8,4 +8,4 @@
 
 ## 記事一覧
 
-[ボクセルレイトレーサーを作った](https://kair1jtr.github.io/docs/raytracing.html)
+[ボクセルレイトレーサーを作った 2025.12.7](https://kair1jtr.github.io/docs/raytracing.html)
